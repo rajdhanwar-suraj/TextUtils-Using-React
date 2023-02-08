@@ -40,7 +40,7 @@ export default function TextBox(props) {
             <button type="button" className={`btn btn-${props.mode} mx-1 my-1`} onClick={copyToClipbord}>Copy to clipbord</button>
             <button type="button" className={`btn btn-${props.mode} mx-1 my-1`} onClick={removeExtraSpace}>Remove extra space</button>
             <button type="button" className={`btn btn-${props.mode} mx-1 my-1`} onClick={clear}>Clear</button>
-            <p className='my-0'>{(text.split(' ').length) - 1} word and {text.length} charactors.</p>
+            <p className='my-0'>{(text.split(' ').filter((element)=>{return element.length!==0}).length)} word and {text.length} charactors.</p>
             <h3 className='my-0'>Preview</h3>
             <p>{text}</p>
         </div>

@@ -3,11 +3,9 @@ import React from 'react'
 export default function About(props) {
     return (
         <>
-            <div className={`heading text-${props.mode === 'light' ? 'dark' : 'light'}`}>
+            <div className={`details container text-${props.mode === 'light' ? 'dark' : 'light'}`}>
                     <h1>About</h1>
                     <p>In this page we describe a bit of the history, motivations and features behind Text-Utils.com.</p>
-            </div>
-            <div className={`details container text-${props.mode === 'light' ? 'dark' : 'light'}`}>
                 <h2> What does it do?</h2>
                 <p>
                     Text-Utils.com is described as a central repository of tools for helping with developer activities. It includes tools such as for formatting JSON, XML, HTML, CSS, JavaScript, multiple text tools such as to convert case, remove accents, line breaks, extra space, also regular expressions tools for extracting elements from text such as IPs and e-mail addresses. And this is actually only a subset of what we have.

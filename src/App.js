@@ -37,7 +37,7 @@ function App() {
       element.style.border = '2px solid white';
     });
     showAlert('Red Mode Enabled.', 'danger');
-    document.title = 'TextUtils-- RedMode'
+    // document.title = 'TextUtils-- RedMode'
 
   }
   const greenMode = () => {
@@ -48,7 +48,7 @@ function App() {
       element.style.border = '2px solid white';
     });
     showAlert('Green Mode Enabled.', 'success');
-    document.title = 'TextUtils-- GreenMode'
+    // document.title = 'TextUtils-- GreenMode'
   }
   const blueMode = () => {
     setMode('primary');
@@ -58,7 +58,7 @@ function App() {
       element.style.border = '2px solid white';
     });
     showAlert('Blue Mode Enabled.', 'primary');
-    document.title = 'TextUtils-- BlueMode'
+    // document.title = 'TextUtils-- BlueMode'
 
 
   }
@@ -73,7 +73,7 @@ function App() {
         element.style.border = '2px solid white';
       });
       showAlert('Dark Mode Enabled.', 'success');
-      document.title = 'TextUtils-- DarkMode'
+      // document.title = 'TextUtils-- DarkMode'
     } else {
       setMode('light');
       setBtnText('Enable Dark Mode');
@@ -83,7 +83,7 @@ function App() {
         element.style.border = '2px solid black';
       });
       showAlert('Light Mode Enabled.', 'success');
-      document.title = 'TextUtils-- LightMode'
+      // document.title = 'TextUtils-- LightMode'
 
     }
   }
